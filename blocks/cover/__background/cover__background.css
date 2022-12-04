@@ -1,0 +1,38 @@
+.cover__background{
+    margin: 92px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url("../../../Images/__background.png");
+    background-size: cover;
+    position: relative;
+}
+
+@media (max-width: 1024px){
+    .cover__background{
+        margin: 92px 0 0 0;
+        max-width: 100%;
+        min-height: 640px;
+        background-image: url("../../../Images/__background_1024.jpg");
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__background {
+        margin: 90px auto 0 auto;
+        min-height: 480px;
+        background-image: url("../../../Images/__background_768.png");
+    }
+}
+
+@media (max-width: 425px) {
+    .cover__background {
+        margin: 66px 0 0 0;
+        min-height: 200px;
+        background-image: url("../../../Images/__background_320.png");
+        background-size: cover;
+    }
+}

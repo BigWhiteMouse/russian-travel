@@ -1,0 +1,23 @@
+.footer__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 18px; /*здесь в perfect pixel расхождения в 4 пикселя, если сделать padding-right: 14px, отклонений
+    нет, но в фигме указано расстроение в 18px, поэтому ориентировалась на фигму*/
+    vertical-align: top;
+}
+
+.footer__link:last-of-type{
+    padding-right: 0;
+}
+
+@media (max-width: 425px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 1;
+        padding-bottom: 32px;
+    }
+}

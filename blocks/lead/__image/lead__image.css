@@ -1,0 +1,34 @@
+.lead__image{
+    margin-bottom: 8px;
+    background-image: url("../../../Images/__image-map.png");
+    min-width: 100%;
+    min-height: 615px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+    .lead__image {
+        background-image: url("../../../Images/__image-map2.png");
+        min-height: 580px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+        background-image: url("./../../../Images/__image-map3.png");
+        min-height: 480px;
+    }
+}
+
+/*добавляю еще один медиа-запрос, так как в промежутке от 426 до 740 px появляется горизонтальный скролл в связи с
+размерами шрифта заголовка в блоке lead и размерами картинок в блоке photo-grid
+ */
+@media (max-width: 740px) {
+    .lead__image {
+        background-image: url("../../../Images/__image-map4.png");
+        width: 100%;
+        min-height: 200px;
+        background-size: cover;
+    }
+}
