@@ -1,0 +1,31 @@
+.lead__image{
+    margin-bottom: 8px;
+    background-image: url("../../../images/lead-polka.jpg");
+    min-width: 100%;
+    min-height: 615px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+    .lead__image {
+        min-height: 580px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+        min-height: 480px;
+    }
+}
+
+/*добавляю еще один медиа-запрос, так как в промежутке от 426 до 740 px появляется горизонтальный скролл в связи с
+размерами шрифта заголовка в блоке lead и размерами картинок в блоке photo-grid
+ */
+@media (max-width: 740px) {
+    .lead__image {
+        width: 100%;
+        min-height: 200px;
+        background-size: cover;
+    }
+}

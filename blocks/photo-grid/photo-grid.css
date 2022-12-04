@@ -1,0 +1,31 @@
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .photo-grid {
+        max-width: 928px;
+        gap: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        max-width: 720px;
+        gap: 16px;
+    }
+}
+
+/*добавляю еще один медиа-запрос, так как в промежутке от 426 до 740 px появляется горизонтальный скролл в связи с
+размерами шрифта заголовка в блоке lead и размерами картинок в блоке photo-grid
+ */
+@media (max-width: 740px){
+    .photo-grid{
+        gap: 12px;
+        max-width: 288px;
+    }
+}

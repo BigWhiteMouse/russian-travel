@@ -1,0 +1,36 @@
+.lead__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.04;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 56px;
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+@media (max-width: 1024px) {
+    .lead__title {
+        padding-top: 48px;
+    }
+}
+
+/*добавляю еще один медиа-запрос, так как в промежутке от 426 до 740 px появляется горизонтальный скролл в связи с
+размерами шрифта заголовка в блоке lead и размерами картинок в блоке photo-grid
+ */
+@media (max-width: 740px) {
+    .lead__title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 1.1;
+        padding-bottom: 16px;
+        padding-top: 48px;
+        max-width: 288px;
+    }
+}
