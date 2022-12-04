@@ -1,6 +1,6 @@
 .lead__image{
     margin-bottom: 8px;
-    background-image: url("../../../Images/__image-map.png");
+    background-image: url("../../../images/__image-map.png");
     min-width: 100%;
     min-height: 615px;
     background-size: contain;
@@ -9,14 +9,14 @@
 
 @media (max-width: 1024px) {
     .lead__image {
-        background-image: url("../../../Images/__image-map2.png");
+        background-image: url("../../../images/__image-map2.png");
         min-height: 580px;
     }
 }
 
 @media (max-width: 768px) {
     .lead__image {
-        background-image: url("./../../../Images/__image-map3.png");
+        background-image: url("../../../images/__image-map3.png");
         min-height: 480px;
     }
 }
@@ -26,7 +26,7 @@
  */
 @media (max-width: 740px) {
     .lead__image {
-        background-image: url("../../../Images/__image-map4.png");
+        background-image: url("../../../images/__image-map4.png");
         width: 100%;
         min-height: 200px;
         background-size: cover;
