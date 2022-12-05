@@ -22,7 +22,6 @@
 
 @media (max-width: 425px) {
     .place__paragraph {
-        line-height: 1.63;
         padding-left: 16px;
         padding-right: 16px;
     }

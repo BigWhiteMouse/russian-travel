@@ -4,11 +4,18 @@
     font-size: 14px;
     line-height: 1.14;
     text-align: right;
+    margin: 0;
 }
 
 @media (max-width: 425px) {
     .footer__copyright {
         line-height: 1;
         text-align: left;
+        margin-top: 16px;
     }
 }
+
+/*Отступ от последней ссылки до копирайта 48px, как в макете. Я так понимаю, это расхождение в perfect pixel
+из-за того что в блоке place едет текст из-за разного с макетом переноса строк (на который наставники велели
+не обращать внимания
+ */

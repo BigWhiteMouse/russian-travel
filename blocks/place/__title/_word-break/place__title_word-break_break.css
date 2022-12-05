@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .place__title_word-break_break {
+        max-width: 240px; /*иначе при таком размере заголовок не переносится на вторую строку, и в
+        perfect pixel все едет. пыталась воспользоваться вашим советом, но тогда едет зимний байкал=(*/
+    }
+}
+
+@media (max-width: 425px) {
+    .place__title_word-break_break {
+        max-width: 100%;
+    }
+}
